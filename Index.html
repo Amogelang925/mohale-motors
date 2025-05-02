@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohale Motors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header, section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    header {
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .services, .inventory {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      background: #fff;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mohale Motors</h1>
+    <p>Fast. Reliable. Affordable Motorcycle Sales & Repairs</p>
+  </header>  <section>
+    <h2>About Us</h2>
+    <p>At Mohale Motors, we are passionate about keeping your ride in perfect shape. Whether you're buying a motorcycle or need a quick repair, we're here to help you hit the road safely and stylishly.</p>
+  </section>  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card"><strong>Repairs</strong><p>Quick fixes and major repairs for all makes and models.</p></div>
+      <div class="card"><strong>Maintenance</strong><p>Regular checkups to keep your motorcycle running smoothly.</p></div>
+      <div class="card"><strong>Sales</strong><p>Affordable, quality motorcycles for sale.</p></div>
+      <div class="card"><strong>Customization</strong><p>Get a unique look and feel for your bike.</p></div>
+    </div>
+  </section>  <section>
+    <h2>Motorcycles for Sale</h2>
+    <div class="inventory">
+      <div class="card">
+        <img src="bike1.jpg" alt="Motorcycle 1">
+        <p><strong>Yamaha YZF-R3</strong><br>Price: R45,000</p>
+      </div>
+      <div class="card">
+        <img src="bike2.jpg" alt="Motorcycle 2">
+        <p><strong>Honda CBR500R</strong><br>Price: R52,000</p>
+      </div>
+    </div>
+  </section>  <section>
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>Quick turnaround time</li>
+      <li>Trusted by local bikers</li>
+      <li>Affordable pricing</li>
+      <li>Excellent customer service</li>
+    </ul>
+  </section>  <section>
+    <h2>Contact Us</h2>
+    <p>Phone: 012 345 6789<br>
+       WhatsApp: 012 345 6789<br>
+       Address: 123 Bike Street, Mohale City</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>  <footer>
+    <p>&copy; 2025 Mohale Motors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
